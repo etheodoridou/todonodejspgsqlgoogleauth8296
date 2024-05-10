@@ -30,14 +30,5 @@
       "route": "/logout",
       "redirect": "/.auth/logout"
     }
-  ],
-  "auth": {
-    "rolesSource": "/api/getRoles",
-    "identityProviders": {
-      "github": {
-        "clientIdSettingName": "GITHUB_CLIENT_ID",
-        "clientSecretSettingName": "GITHUB_CLIENT_SECRET"
-      }
-    }
-  }
+  ]
 }
