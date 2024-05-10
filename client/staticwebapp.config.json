@@ -30,16 +30,5 @@
       "route": "/logout",
       "redirect": "/.auth/logout"
     }
-  ],
-  "auth": {
-    "rolesSource": "/api/getroles",
-    "identityProviders": {
-      "google": {
-        "registration": {
-          "clientIdSettingName": "GOOGLE_CLIENT_ID",
-          "clientSecretSettingName": "GOOGLE_CLIENT_SECRET"
-        }
-      }
-    }
-  }
+  ]
 }
