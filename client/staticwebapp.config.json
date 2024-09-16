@@ -29,6 +29,14 @@
     {
       "route": "/logout",
       "redirect": "/.auth/logout"
+    },
+    {
+      "route": "/profile",
+      "methods": [
+        "get",
+        "post",
+        "put"
+      ]
     }
   ],
   "auth": {
